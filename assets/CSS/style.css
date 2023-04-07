@@ -84,7 +84,7 @@ button {
     display: flex;
 }
 
-#day1{
+#d1{
     
     height: 300px;
     width: 250px;
@@ -93,7 +93,7 @@ button {
     
 }
 
-#day2, #day3, #day4, #day5{ 
+#d2, #d3, #d4, #d5{ 
     margin-left: 20px;
     height: 300px;
     width: 250px;
