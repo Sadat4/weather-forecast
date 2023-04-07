@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast Weather</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+            <div id="divheader">
+                <h1>5 Days Forecast Weather</h1>
+                
+            </div>
+    </header>
+    <!-- main container -->
+    <section id="main-container">
+        
+        <!-- left sidebar -->
+        <div class="left-side"> 
+            <p id="inputContainer">City: <input type="text" id="InputCity"></p>
+            <button type="button" onclick="retriveinformation()">Next</button>
+        </div>
+
+        
+        <div class="right-side">
+            <h2 id="NameofCity">London</h2>
+
+
+
+
+            <!-- container for weather -->
+            <div class="weathermaincontainer">
+            
+            <div id="flexfordays">
+                <div class="icn" id="day1">
+                    <p class="G-weather" id="day-1"></p>
+                    <div class="image"><img src="" class="imgClass" id="imge1"></div>
+                    <p class="minValue" id="day-1Min"></p>
+                    <p class="maxValue" id="day-1Max"></p>
+                </div>
+
+               <div class="icn" id="day2">
+                <p class="G-weather" id="day-2">day 2</p>
+                <div class="image"><img src="" class="imgClass" id="imge2"></div>
+                <p class="minValue" id="day-2Min"></p>
+                <p class="maxValue" id="day-2Max"></p>
+              </div>
+
+              <div class="icn" id="day3">
+                <p class="G-weather" id="day-3"></p>
+                <div class="image"><img src="" class="imgClass" id="imge3"></div>
+                <p class="minValue" id="day-3Min"></p>
+                <p class="maxValue" id="day-3Max"></p>
+             </div>
+
+                 <div class="icn" id="day4">
+                     <p class="G-weather" id="day-4"></p>
+                     <div class="image"><img src="" class="imgClass" id="imge4"></div>
+                    <p class="minValue" id="day-4Min"></p>
+                    <p class="maxValue" id="day-4Max"></p>
+                  </div>
+
+             <div class="icn" id="day5">
+                <p class="G-weather" id="day-5"></p>
+                <div class="image"><img src="" class="imgClass" id="imge5"></div>
+                <p class="minValue" id="day-5Min"></p>
+                <p class="maxValue" id="day-5sMax"></p>
+                 </div>
+
+
+             </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div id="divfooter">
+        <h3>Prepared by Sayed Abdullah Sadat</h3>
+    </div>
+    </footer>
+
+    <script src="./assets/JavaScript/script.js"></script>
+</body>
+</html>
