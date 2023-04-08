@@ -35,7 +35,7 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+fornewName.value+'&a
 }
 
 function defaultpage(){
-    document.getElementById("InputCity").defaultValue = "Denver";
+    document.getElementById("InputCity").defaultValue = "denver";
     retriveinformation();
 }
 
