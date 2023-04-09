@@ -31,11 +31,11 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+fornewName.value+'&a
 
 })
 
-// .catch(err => alert("Please check Your Internet Coneciton"))
+.catch(err => alert("Please check Your Internet Coneciton"))
 }
 
 function defaultpage(){
-    document.getElementById("InputCity").defaultValue = "denver";
+    document.getElementById("InputCity").defaultValue = "Germany";
     retriveinformation();
 }
 

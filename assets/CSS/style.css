@@ -92,7 +92,7 @@ button {
     text-align: center;
     margin-left: 20px ;
     width: 300px;
-    height: auto    ;
+    height: 300px    ;
     font-size: 20px;
     
 }
@@ -103,12 +103,8 @@ button {
     
 }
 
-.weathers {
-    height: 120px;
-    margin-top: 10px;
-}
-
-#imge1{
+#imge1, #imge2, #imge3, #imge4, #imge5{
+    margin-top: 30px;
    width: 150px;
    height: 150px;
     
